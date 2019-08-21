@@ -24,6 +24,6 @@ npm run test
 
 ## 界面预览
 
-![](https://github.com/gzhanuo/travel/preview.png)
+![](https://indexmoon.com/travel/preview.png)
 
 自定义配置请参考[Configuration Reference](https://cli.vuejs.org/zh/config/).
