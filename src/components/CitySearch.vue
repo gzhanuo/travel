@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { setTimeout } from 'timers';
+import { setTimeout } from 'timers'
 import BScroll from 'better-scroll'
 import { mapMutations } from 'vuex'
 
@@ -45,6 +45,7 @@ export default {
 		handleCityClick (city) {
 			this.changeCity(city)
 			this.$router.push('/')
+			this.keyword = ''
 		},
 		...mapMutations(['changeCity'])
 	},
